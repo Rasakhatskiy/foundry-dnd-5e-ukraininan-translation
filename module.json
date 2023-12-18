@@ -1,0 +1,45 @@
+{
+  "id": "lang-uk-dnd5e-pavuk-edition",
+  "title": "Translation: Ukrainian [DnD 5e] (Pavuk_XD)",
+  "description": "Неофіційний український переклад DnD 5e та tidy5esheet для Foundry Virtual Tabletop.",
+  "authors": [
+    {
+      "name": "Pavuk_XD",
+      "discord": "pavuk_xd",
+      "url": "https://github.com/Rasakhatskiy/foundry-dnd-5e-ukraininan-translation",
+      "flags": {}
+    }
+  ],
+  "version": "0.1.1",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10,
+    "maximum": 11
+  },
+  "url": "https://github.com/Rasakhatskiy/foundry-dnd-5e-ukraininan-translation",
+  "manifest": "https://raw.githubusercontent.com/Rasakhatskiy/foundry-dnd-5e-ukraininan-translation/master/module.json",
+  "download": "https://github.com/Rasakhatskiy/foundry-dnd-5e-ukraininan-translation/releases/download/v0.1.0/version-0-1-0.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "verified": "2.0.3"
+        }
+      }
+    ]
+  },
+  "styles": [
+    "styles/dnd-uk.css"
+  ],
+  "languages": [
+    {
+      "lang": "uk",
+      "name": "Українська (Ukrainian)",
+      "path": "lang/uk.json",
+      "flags": {}
+    }
+  ]
+}
